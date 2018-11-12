@@ -1,0 +1,74 @@
+[
+   {
+      "name":"move",
+      "displayname":"Move",
+      "shorthand":"M",
+      "description":"This is the distance, in inches, that the fighter can usually move."
+   },
+   {
+      "name":"weaponskill",
+      "displayname":"Weapon Skill",
+      "shorthand":"WS",
+      "description":"This shows the fighter’s proficiency with melee weapons."
+   },
+   {
+      "name":"ballisticskill",
+      "displayname":"Ballistic Skill",
+      "shorthand":"BS",
+      "description":"This shows the fighter’s proficiency with ranged weapons."
+   },
+   {
+      "name":"leadership",
+      "displayname":"Leadership",
+      "shorthand":"LD",
+      "description":"This is a measure of fighter’s ability to issue commands and lead their gang mates."
+   },
+   {
+      "name":"cool",
+      "displayname":"Cool",
+      "shorthand":"Cl",
+      "description":"A fighter’s Cool represents their capacity for keeping calm under fire."
+   },
+   {
+      "name":"willpower",
+      "displayname":"Willpower",
+      "shorthand":"Will",
+      "description":"Willpower is a measure of fighter’s mental fortitude and resilience."
+   },
+   {
+      "name":"strength",
+      "displayname":"Strength",
+      "shorthand":"S",
+      "description":"The higher a fighter’s Strength, the more likely they are to inflict damage on an opponent when they are in close combat."
+   },
+   {
+      "name":"toughness",
+      "displayname":"Toughness",
+      "shorthand":"T",
+      "description":"The higher a fighter’s Toughness, the less likely they are to be wounded by an attack."
+   },
+   {
+      "name":"wounds",
+      "displayname":"Wounds",
+      "shorthand":"W",
+      "description":"A fighter’s Wounds, characteristic is measure of their ability to survive hits which injure them, and keep on fighting."
+   },
+   {
+      "name":"initiative",
+      "displayname":"Initiative",
+      "shorthand":"I",
+      "description":"Initiative measures a fighter’s dexterity and reflexes."
+   },
+   {
+      "name":"attacks",
+      "displayname":"Attacks",
+      "shorthand":"A",
+      "description":"When a fighter is engaged in close combat, their Attacks characteristic determines how many dice are rolled when they attack in close combat."
+   },
+   {
+      "name":"intelligence",
+      "displayname":"Intelligence",
+      "shorthand":"Int",
+      "description":"Intelligence represent a fighter’s mental acuity and ability to apply knowledge."
+   }
+]

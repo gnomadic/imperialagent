@@ -1,0 +1,207 @@
+[
+   {
+      "name":"backstab",
+      "displayname":"Backstab",
+      "description":"If the attacker is not within the target’s vision arc, add 1 to the attack’s Strength."
+   },
+   {
+      "name":"blast",
+      "displayname":"Blast (3’’/5’’)",
+      "description":"The weapon uses a Blast marker. As describe p.22 and p.28. YAQ: Since it does not specifically target a fighter, weapon with Blast trait bypasses the rules for target priority, does not suffer penalty for cover and can hit fighter in hiding (prone and in cover)."
+   },
+   {
+      "name":"blaze",
+      "displayname":"Blaze",
+      "description":"After an attack with the Blaze trait has been resolved, roll a D6 if the target was hit but not taken Out of Action. On a 4, 5 or 6 they catch fire – place a Blaze marker on their fighter card. When a fighter with a Blaze marker is activated, they suffer an immediate Strength 3, AP -1, Damage 1 hit. If the fighter is Seriously Injured, they attempt to put the fire out (see below). Otherwise, they are no longer Pinned and they will move 2D6’’ in a random direction (determined using the Scatter dice, and stopping if they would move within 1’’ of an enemy). A fighter with a Blaze marker cannot take any other actions. At the end of their activation, roll a D6, adding 1 to the result for each other Active friendly fighter within 1’’ . On a 6 or more, the flames go out and the Blaze marker is removed. Alternatively, after they move they become Pinned. Pinned or Seriously Injured fighters add 2 to the result of the roll to see whether the flames go out. YAQ: Inorganic targets, like doors cannot be set ablaze."
+   },
+   {
+      "name":"combi",
+      "displayname":"Combi",
+      "description":"A combi-weapon has two profiles. When it is fired, pick one of the two profiles and use it for the attack. Due to the compact nature of the weapons, they often have less capacity for ammunition, and are prone to jams and other minor issues. When making an Ammo check for either of the weapons, roll twice and apply the worst result. However, unlike most weapons that have two profiles, ammo for the two parts of the combi-weapon are tracked separately – if one profile runs Out of Ammo, the other can still fire unless it has also run Out of Ammo."
+   },
+   {
+      "name":"concussion",
+      "displayname":"Concussion",
+      "description":"Any model hit by a Concussion weapon has their Initiative reduced by 2 to a minimum of 6+ until the end of the round."
+   },
+   {
+      "name":"demolitions",
+      "displayname":"Demolitions",
+      "description":"Grenade with the Demolitions trait can be used when making close combat attacks against scenery targets (such as locked doors or scenario objectives). A fighter who uses a grenade in this way makes one attack (regardless of how many Attack dice they would normally roll), which hits automatically."
+   },
+   {
+      "name":"digi",
+      "displayname":"Digi",
+      "description":"A digi weapon is worn mounted on a ring or hidden inside a glove. It can be used in addition to any other Melee weapon or Pistol carried by the fighter granting either an additional shot or an additional close combat attack. A weapon with this trait does not count towards the maximum number of weapons a fighter can carry, however the maximum number of weapon with this trait a fighter can carry is 10."
+   },
+   {
+      "name":"disarm",
+      "displayname":"Disarm",
+      "description":"If the hit roll for an attack made with a Disarm weapon is a natural 6, the target cannot use any weapons when making Reaction attacks during that combat – they make unarmed attacks instead."
+   },
+   {
+      "name":"drag",
+      "displayname":"Drag",
+      "description":"If a fighter is hit by a Drag weapon but not taken Out of Action, the attacker can attempt to drag the target closer after the attack has been resolved. If a they do, roll a d6. If the score is equal to or higher than the target’s Strength, the target is dragged D3’’ straight towards the attacker, stopping if they hit any terrain. If they move into another fighter (other than the attacker), both fighters are moved the remaining distance towards the attacker. If the weapon also has the Impale special rule and hits more than one fighter, only the last fighter to be hit can be dragged."
+   },
+   {
+      "name":"energyshield",
+      "displayname":"Energy Shield",
+      "description":"An energy shield grants a +2 armour roll modifier (to a maximum of 2+) against melee attacks that originate from within the fighter’s vision arc (the 90° arc to their front), and a +1 armour save modifier against ranged attacks that originate from within the fighter’s vision arc; check this before the fighter model is placed prone and is Pinned. If it is not clear whether the attacker is within the target’s front arc, use a Vision Arc template to check – if the centre of the attacker’s base is within the arc, the energy shield can be used. Against attacks with the Blast trait, use the centre of the Blast maker in place of the attacker. If the target does not have a facing (for example, if they are Prone) the energy shield cannot be used."
+   },
+   {
+      "name":"entangle",
+      "displayname":"Entangle",
+      "description":"Hits scored by weapons with the Entangle trait cannot be negated by the Parry trait. In addition, if the hit roll for an Entangle weapon is a natural 6, any Reaction attacks made by the target have an additional -2 hit modifier. 110"
+   },
+   {
+      "name":"fear",
+      "displayname":"Fear",
+      "description":"Instead of making an Injury roll for an attack with the Fear trait, the opposing player makes a Nerve test for the target, subtracting 2 from the result. If the test fails, the target is immediately Broken and runs for cover. "
+   },
+   {
+      "name":"knockback",
+      "displayname":"Knockback",
+      "description":"If the hit roll for a weapon with the Knockback trait is equal to or higher than the target’s Strength (before any modifiers are applied), they are immediately moved 1’’ directly away from the attacking fighter. If the fighter cannot be moved the full 1’’ because of a wall, obstacle or another fighter, they move as far as possible and the attack’s Damage is increased by 1. If a Blast weapon has the Knockback trait, roll a D6 for each fighter that is hit. If the result is equal to or higher than their Strength, they are Knocked Back as described above – however, they are moved directly away from the centre of the Blast marker instead. If the centre of the Blast marker was over the centre of their base, roll a Scatter dice to determine which way they are moved. If a Melee weapon has the Knockback trait, the attacking fighter can choose to follow the target up moving directly towards them after they have been Knocked Back to remain in base contact. If the attack was made across a barricade, the attacker cannot do this."
+   },
+   {
+      "name":"flash",
+      "displayname":"Flash",
+      "description":"If a fighter is hit by a Flash weapon, no wound roll is made. Instead, make an Initiative check for the target. If it is failed, they are blinded. A blinded fighter loses their Ready marker; if they do not have a Ready marker, they do not gain a Ready marker at the start of the following round. Until the next time the fighter is activated, they cannot make any attacks other than reaction attacks, for which any hit rolls will only succeed on a natural 6."
+   },
+   {
+      "name":"gas",
+      "displayname":"Gas",
+      "description":"When a fighter is hit by an attack made by a Gas weapon, they are not Pinned and a wound roll is not made. Instead roll a D6. If the result is equal to or higher than the target’s Toughness, or is a natural 6, make an Injury roll for them (regardless of their Wounds characteristic) – no save roll can be made YAQ: This special rule doesn’t apply against inorganic targets, like doors. Normal wound roll is made using the Strength of the weapon."
+   },
+   {
+      "name":"gravitonpulse",
+      "displayname":"Graviton Pulse",
+      "description":"Instead of rolling to wound normally with this weapon, any model caught in the blast must instead roll to or under their Strength on a D6 (a roll of 6 always counts as a fail). After the weapon has been fired, leave the Blast marker in place. For the remainder of the round, any model moving through this area will use 2’’ of their movement for every 1’’ they move."
+   },
+   {
+      "name":"grenade",
+      "displayname":"Grenade",
+      "description":"The weapon use Grenade rules. See p. 28"
+   },
+   {
+      "name":"impale",
+      "displayname":"Impale",
+      "description":"If an attack made by this weapon hits and wounds the target, and the save roll is unsuccessful (or no save roll is made), the projectile continues through them and might hit another fighter! Trace a straight line from the target, directly away from the attacker. If there are any fighters within 1`` of this line, and within the weapon's Long Range, the one that is closest to the target is at risk of being hit. Roll a D6 – on a 3 or more, resolve the weapon’s attack against that fighter, subtracting 1 from the Strength. The projectile can continue through multiple fighters in this way, but if the Strength is reduced to 0, it cannot hit any more fighters."
+   },
+   {
+      "name":"limited",
+      "displayname":"Limited",
+      "description":"This special rule is applied to some special ammo types which can be purchased for weapons. If a weapon fails an Ammo check while using limited ammo, they have run out – that ammo type is deleted from their fighter card (YAQ: the cost is also subtracted from the Fighter’s value), and cannot be used again until more of that special ammo is purchased from the Trading Post. This is in addition to the normal rules for the weapon running Out of Ammo. The weapon can still be reloaded as normal, using its remaining profile(s). YAQ: Same fighter cannot carry more that one “dose” of one ammo type at a time."
+   },
+   {
+      "name":"melee",
+      "displayname":"Melee",
+      "description":"This weapon can be used during close combat attacks."
+   },
+   {
+      "name":"melta",
+      "displayname":"Melta",
+      "description":"If this weapon is fired at Short Range, no Injury roll is made – instead, the target automatically goes Out of Action."
+   },
+   {
+      "name":"parry",
+      "displayname":"Parry",
+      "description":"After an enemy makes close combat attacks against a fighter armed with a Parry weapon, the defending fighter’s owning player can force the attacking player to re-roll one successful hit. If the defending fighter is armed with two Parry weapons, their owning player can force the attacking player to re-roll two successful hits instead."
+   },
+   {
+      "name":"pistol",
+      "displayname":"Pistol",
+      "description":"Pistols can be used to make ranged attacks, and can also be used in close combat. See p.29. Note that their Accuracy bonus only applies when shooting."
+   },
+   {
+      "name":"plentiful",
+      "displayname":"Plentiful",
+      "description":"Ammunition for this weapon is incredibly common. When reloading it, no Ammo check is required – it is automatically reloaded."
+   },
+   {
+      "name":"seismic",
+      "displayname":"Seismic",
+      "description":"If the target of a Seismic attack is Active, they are always Pinned – even if they have an ability that would normally allow them to avoid being Pinned by ranged attacks. In addition, if the wound roll for a Seismic weapon is a natural 6, no save roll can be made against that attack."
+   },
+   {
+      "name":"power",
+      "displayname":"Power",
+      "description":"The weapon is surrounded by a crackling power field. Attacks made by Power weapons cannot be parried except by other Power weapons. In addition, if the hit roll for a Power weapon is a 6, no save roll can be made against the attack and its Damage is increased by 1."
+   },
+   {
+      "name":"pulverise",
+      "displayname":"Pulverise",
+      "description":"After making an Injury roll for an attack made by this weapon, the attacking player can roll a D6. If the result is equal to or higher than the target's Toughness, or is a natural 6, they can change one Injury dice from a Flesh Wound result to a Serious Injury result."
+   },
+   {
+      "name":"shock",
+      "displayname":"Shock",
+      "description":"If the hit roll for a Shock weapon is a natural 6, the wound roll is considered to automatically succeed (no wound roll needs to be made)"
+   },
+   {
+      "name":"singleshot",
+      "displayname":"Single Shot",
+      "description":"This weapon can only be used once per game. After use it counts as having automatically failed an Ammo Check. There is no need to roll the Firepower dice unless the weapon also has the Rapid Fire (x) trait."
+   },
+   {
+      "name":"radphage",
+      "displayname":"Rad-Phage",
+      "description":"In addition to any other damage inflicted, any model hit by this weapon suffers an automatic flesh wound. YAQ: It is added irrespective of the result of the hit, and is applied after the hit has been resolved."
+   },
+   {
+      "name":"rapidfire",
+      "displayname":"Rapid Fire (X)",
+      "description":"When firing with a Rapid Fire weapon, a successful hit roll scores a number of hits equal to the number of bullet holes on the Firepower dice. In addition the controlling player can roll more than one Firepower dice, up to the number shown in brackets (for example, when firing a Rapid Fire (2) weapon, up to two firepower dice can be rolled). Make an Ammo check for each Ammo symbol that is rolled. If any of them fail, the gun runs Out of Ammo. If two or more of them fail, the gun has jammed and cannot be used for the rest of the battle. If a Rapid Fire weapon scores more than one hit, the hits can be split between multiple targets. The first must be allocated to the initial target, but the remainder can be allocated to other fighters within 3’’ of the first who are also within range and line of sight. These must not be any harder to hit than the original target – if a target in the open is hit, an obscured target cannot have hits allocated to it. Allocate all of the hits before making any wound rolls. Rapid Fire trait on a pistol can be used in close combat."
+   },
+   {
+      "name":"rending",
+      "displayname":"Rending",
+      "description":"If the roll to wound with a Rending weapon is a natural 6 the attack causes 1 extra point of damage."
+   },
+   {
+      "name":"scarce",
+      "displayname":"Scarce",
+      "description":"Ammunition is hard to come by for Scarce weapons, and as such they cannot be reloaded – once they run Out of Ammo, they cannot be used again during the battle."
+   },
+   {
+      "name":"scattershot",
+      "displayname":"Scattershot",
+      "description":"When a target is hit by a scattershot attack, make D6 wounds roll instead of 1."
+   },
+   {
+      "name":"smoke",
+      "displayname":"Smoke",
+      "description":"Smoke weapons do not cause hits on fighters – they do not cause Pinning and cannot inflict Wounds. Instead, mark the location where they hit with a counter. They generate an area of dense smoke, which extends 2.5’’ out from the centre of the counter; a 5’’ Blast marker can be used to determine this area, but it should be considered to extend vertically as well as horizontally. Fighters can move through the smoke, but it blocks line of sight, so attacks cannot be made into, out of or through it. In the End phase, roll a D6. On a 4 or less, the cloud dissipates and the counter is removed."
+   },
+   {
+      "name":"template",
+      "displayname":"Template",
+      "description":"Template weapons use the Flame template to determine how many targets they hit. See p.22 and p.28. YAQ: Since it does not specifically target a fighter, weapon with Template trait bypasses the rules for target priority, does not suffer penalty for cover and can hit fighter in hiding (prone and in cover)."
+   },
+   {
+      "name":"toxin",
+      "displayname":"Toxin",
+      "description":"Instead of making a Wound roll for a Toxin attack, roll 2D6. The target's controlling player rolls a D6 and adds the target's Toughness. If the target's roll is higher, they shrug off the toxin’s effects. If the rolls are equal, the target is Seriously Injured. If the 2D6 roll is higher, the target goes Out of Action. YAQ: A save roll can be made against Toxin attack (if the Toxin roll results in the target being Seriously Injured or Out of Action and it has armour, their controller make a save roll. If it's passed, the results of the Toxin roll is ignored.) Toxin does bypass Wounds though (the target directly goes Seriously Injured or Out of action no matter how many Wounds they have left. If they are Seriously Injured by a Toxin attack, they don't lose any Wounds). This special rule doesn’t apply against inorganic targets, like doors. Normal wound roll is made using the Strength of the weapon."
+   },
+   {
+      "name":"versatile",
+      "displayname":"Versatile",
+      "description":"If the wielder of a Versatile weapon is Engaged, it counts as a Melee weapon. Otherwise, it counts as a Ranged weapon."
+   },
+   {
+      "name":"web",
+      "displayname":"Web",
+      "description":"If the wound roll for a web attack is successful, no wound is inflicted, and no save roll or Injury Roll is made. Instead, the target is automatically Webbed. Treat the fighter as if they were Seriously Injured. A fighter that is Webbed at the end of the game does not succumb to their injuries and will automatically recover. When rolling to determine if any enemy fighters are captured at the end of the game, add +1 to the dice roll for each enemy fighter currently Webbed. Note: You may find it convenient to note which fighters are Webbed to differentiate them from those that are Seriously Injured. We recommend making a note on their Fighter Card."
+   },
+   {
+      "name":"unstable",
+      "displayname":"Unstable",
+      "description":"If the Ammo Symbol is rolled on the Firepower dice when attacking with this weapon, there is a chance the weapon will overheat in addition to needing an Ammo check. Roll a D6. On a 1, 2 or 3, the weapon suffers a catastrophic overload and the attacker is taken Out of Action. The attack is still resolved against the target."
+   },
+   {
+      "name":"unwieldy",
+      "displayname":"Unwieldy",
+      "description":"A shoot action made with this weapon counts as a Double action as opposed to a Single action. In addition, a fighter who uses an Unwieldy melee weapon in close combat, cannot use a second weapon at the same time – this one uses both hands."
+   }
+]
